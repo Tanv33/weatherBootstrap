@@ -34,7 +34,7 @@ function App() {
     if (name) {
       axios
         .get(
-          `https://api.openweathermap.org/data/2.5/weather?${name}&appid=363a0329911c1b074081245aae1023c3&units=metric`
+          `https://api.openweathermap.org/data/2.5/weather?${name}&appid=8dad3db309e50de33c8cdefbe69cec74&units=metric`
         )
         .then((res) => {
           const newWeather = res.data;
